@@ -1,0 +1,116 @@
+.App {
+
+}
+.titleLogo{
+  margin-right: 5px;
+}
+.titleHeader{
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.downloadForm{
+  background-image: url("./images/mobileSong.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 10% 25%;
+  min-height: 85vh;
+  height: 100%;
+  display: block;
+  
+}
+.form{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  display: block;
+}
+@media screen and (max-width: 400px) {
+  .form {
+    max-width: 280px; 
+   
+  }
+}
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.addBtn{
+  background-color: lightgreen;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 20%; 
+  border-radius: 15px;
+  padding: 5px;
+  width: 6%; 
+  max-width: 60px;
+  text-align: center;
+}
+.deleteBtn {
+  position: relative;
+  left: 2rem;
+  background-color: #ffcccc; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: #ff9999; 
+}
+.form-control {
+  display: block;
+  width: 24rem;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px rgba(77, 144, 254, 0.5);
+}
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startBtn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 1rem;
+  margin-bottom: 6rem;
+}
+
+.startBtn:hover {
+  background-color: #0069d9;
+}
